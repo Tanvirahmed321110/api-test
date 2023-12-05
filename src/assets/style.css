@@ -1,0 +1,32 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+
+input {
+    display: block;
+    margin: 19px 25px;
+    width: 350px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(248, 240, 224);
+    outline: none;
+}
+
+input:focus{
+    width: 400px;
+    transition: .3s all linear;
+    border: 1px solid rgb(167, 157, 143);
+}
+input[type="submit"]:focus{
+    width: 350px;
+    
+    background-color: blueviolet;
+}
